@@ -60,6 +60,18 @@ p {
   width: 240px;
 }
 
+.container .large .stories {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.container .large .story {
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+}
+
 #phish {
   background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-story-main.png");
   height: 300px;
