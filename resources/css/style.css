@@ -19,6 +19,7 @@ header {
   font-weight: bold;
   z-index: 5;
   background-color: white;
+  border-bottom: 2px black solid;
 }
 
 p {
@@ -42,6 +43,7 @@ p {
   display: inline-flex;
   flex-direction: column;
   width: 630px;
+  margin-right: 20px;
 }
 
 .container .medium {
@@ -104,10 +106,8 @@ p {
   color: white;
 }
 
+
 #bites {
-  background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-news-bite.png");
-  height: 300px;
-  font-family: Georgia;
-  font-size: 30px;
-  color: white;
+  font-size: 16px;
+  font-weight: bold;
 }
