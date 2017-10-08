@@ -31,11 +31,9 @@ footer {
   font-family: Verdana;
   font-size: 12px;
   margin-top: 100px;
+  text-align: center;
 }
 
-footer .navfoot {
-  display: inline-flex;
-}
 
 footer .navfoot a {
   color: black;
@@ -46,8 +44,9 @@ p {
   font-size: 17px;
 }
 
-.footerclass {
-  display: block;
+.navfoot {
+  align-items: center;
+  display: inline-flex;
 }
 
 .container {
