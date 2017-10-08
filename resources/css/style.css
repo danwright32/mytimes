@@ -1,30 +1,47 @@
+body {
+  width: 1200px;
+  margin: 0 auto;
+}
+
+main {
+  position: relative;
+  top: 65px;
+}
+
 header {
+  position: fixed;
+  width: 1200px;
   display: flex;
+  justify-content: space-between;
   align-items: center;
   font-family: verdana;
   font-size: 14px;
   font-weight: bold;
   z-index: 5;
+  background-color: white;
 }
 
-.nav {
+p {
+  font-family: Georgia;
+  font-size: 17px;
+}
+
+.nav a {
   display: inline-flex;
   justify-content: flex-end;
-  border: 1px black solid;
+  color: black;
 }
 
-.logo {
+.logo img {
   display: flex;
-  align-items: center;
   flex-grow: 1;
-  border: 1px black solid;
+  width: 100px;
 }
 
 .container .large {
   display: inline-flex;
   flex-direction: column;
   width: 630px;
-  border: 1px black solid;
 }
 
 .container .medium {
@@ -33,7 +50,6 @@ header {
   position: relative;
   justify-content: center;
   width: 300px;
-  border: 1px black solid;
 }
 
 .container .small {
@@ -42,5 +58,44 @@ header {
   position: relative;
   justify-content: flex-end;
   width: 240px;
-  border: 1px black solid;
+}
+
+#phish {
+  background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-story-main.png");
+  height: 300px;
+  font-family: Georgia;
+  font-size: 30px;
+  color: white;
+}
+
+#earth {
+  background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-story-2.png");
+  height: 300px;
+  font-family: Georgia;
+  font-size: 30px;
+  color: white;
+}
+
+#camera {
+  background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-story-3.png");
+  height: 300px;
+  font-family: Georgia;
+  font-size: 30px;
+  color: white;
+}
+
+#cats {
+  background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-story-1.png");
+  height: 300px;
+  font-family: Georgia;
+  font-size: 30px;
+  color: white;
+}
+
+#bites {
+  background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-news-bite.png");
+  height: 300px;
+  font-family: Georgia;
+  font-size: 30px;
+  color: white;
 }
