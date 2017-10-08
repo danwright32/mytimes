@@ -46,6 +46,10 @@ p {
   font-size: 17px;
 }
 
+.footerclass {
+  display: block;
+}
+
 .container {
   display: flex;
   align-content: flex-start;
@@ -159,4 +163,8 @@ p {
   font-weight: bold;
   color: white;
   text-align: center;
+}
+
+#copyright {
+  display: block;
 }
