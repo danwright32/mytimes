@@ -27,6 +27,10 @@ p {
   font-size: 17px;
 }
 
+.container {
+  display: flex;
+}
+
 .nav a {
   display: inline-flex;
   justify-content: flex-end;
