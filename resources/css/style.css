@@ -1,0 +1,46 @@
+header {
+  display: flex;
+  align-items: center;
+  font-family: verdana;
+  font-size: 14px;
+  font-weight: bold;
+  z-index: 5;
+}
+
+.nav {
+  display: inline-flex;
+  justify-content: flex-end;
+  border: 1px black solid;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  flex-grow: 1;
+  border: 1px black solid;
+}
+
+.container .large {
+  display: inline-flex;
+  flex-direction: column;
+  width: 630px;
+  border: 1px black solid;
+}
+
+.container .medium {
+  display: inline-flex;
+  flex-direction: column;
+  position: relative;
+  justify-content: center;
+  width: 300px;
+  border: 1px black solid;
+}
+
+.container .small {
+  display: inline-flex;
+  flex-direction: column;
+  position: relative;
+  justify-content: flex-end;
+  width: 240px;
+  border: 1px black solid;
+}
